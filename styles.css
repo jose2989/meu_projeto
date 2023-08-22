@@ -1,0 +1,171 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+.box{
+text-align:center;
+}
+header.box h1{
+position: relative;
+justify-content: center;
+margin: 10px;
+padding: 15px;
+bottom: 40px;
+}
+h1{
+background-color:#060505;
+color: #fff;
+margin: 10px;
+padding: 10px;
+}
+nav{
+text-align: center;
+background-color:blue;
+padding: 20px;
+margin: 10px;
+position: relative;
+top: -68px;
+}
+.te{
+color: #fff;
+padding:50px;
+}
+.articles{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+div.articles{
+  top: -10px; 
+}
+h2{
+color: rgb(36, 80, 173);
+margin: 10px;
+top: 10px;
+}
+h3{
+margin: auto;
+width: 400px;
+height: -10px;
+padding: auto;
+}
+p{
+margin:auto;
+width: 400px;
+padding: 10px;
+}
+header{
+margin: 42px;
+margin: right 8px;
+display: inline;
+}
+header time{
+position: relative;
+top: -30px;
+}
+.jose{
+height: 350px;
+display: flex;
+}
+.jose img{
+width: 400px;
+height: auto;
+margin: 40px;
+}
+a{
+margin: 42px;;
+
+}
+article a{
+color: #fff;
+background-color: blue;
+padding: 4px;
+}
+body{
+padding: 15px;
+}
+.container{
+  position: relative;
+  top: -50px;
+}
+footer{
+  background: linear-gradient(to top,#335186 0%,#14b3e7 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 40px 100px 50px;
+  border-top-left-radius: 180px;
+}
+.media-social{
+  margin-bottom: 20px;
+}
+.media-social i{
+  font-size: 28px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.links a{
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 15px;
+
+}
+.copyright{
+  font-size: 15px;
+  margin-top: 25px;
+}
+.line{
+background-color: white;  
+width: 20px;
+height: 6px;
+margin-top: 2px;
+border-radius: 40px;
+position: relative;
+animation: underline-animation 3s infinite;
+}
+@keyframes underline-animation{
+  0%{
+    left: -231px;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    left: 229px;
+    opacity: 0;
+  }
+}
+.esportes{
+  background-color:rgb(124, 17, 148);
+}
+.economia{
+  background-color: #14b3e7;
+}
+.entretenimento{
+  background-color: aquamarine;
+}
+.tecnologia{
+  background-color: rgb(153, 153, 47);
+}
+
+
+
+
+
+
+
+
+
+
